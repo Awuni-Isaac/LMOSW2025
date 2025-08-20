@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services - Community Waste Logistics Hub</title>
+  <style>
+    /* Reset & Base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f9fafb;
+      color: #334155;
+      line-height: 1.6;
+    }
+
+    /* Navigation */
+    nav {
+      background: #1e293b;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: #f8fafc;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    /* Services Section */
+    .services {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    .services h2 {
+      font-size: 2rem;
+      color: #0f172a;
+      margin-bottom: 0.5rem;
+    }
+
+    .services .intro-text {
+      font-size: 1.05rem;
+      max-width: 700px;
+      margin: 0.5rem auto 2rem;
+      color: #475569;
+    }
+
+    /* Service Cards Grid */
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .service-card {
+      background: #ffffff;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      padding: 2rem 1.5rem;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      text-align: center;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .service-card img {
+      width: 70px;
+      margin-bottom: 1rem;
+    }
+
+    .service-card h3 {
+      font-size: 1.4rem;
+      margin-bottom: 0.7rem;
+      color: #2563eb;
+    }
+
+    .service-card p {
+      font-size: 0.95rem;
+      color: #475569;
+    }
+
+    /* Extra Features Section */
+    .extra-features {
+      margin-top: 3rem;
+      background: #e2e8f0;
+      padding: 2rem 1.5rem;
+      border-radius: 12px;
+      text-align: left;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .extra-features h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #0f172a;
+    }
+
+    .extra-features ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .extra-features ul li {
+      margin-bottom: 0.7rem;
+      font-size: 1rem;
+      color: #1e293b;
+      display: flex;
+      align-items: center;
+    }
+
+    .extra-features ul li::before {
+      content: "✔";
+      color: #16a34a;
+      margin-right: 0.5rem;
+      font-weight: bold;
+    }
+
+    /* Footer */
+    .footer {
+      background: #1e293b;
+      color: #cbd5e1;
+      text-align: center;
+      padding: 1.2rem;
+      margin-top: 3rem;
+    }
+
+    .footer p {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="features.html">Features</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="education.html">Education</a>
+    <a href="testimonials.html">Testimonials</a>
+    <a href="contact.html">Contact</a>
+    <a href="map.html">Find us here</a>
+  </nav>
+
+  <!-- Services Section -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <p class="intro-text">We provide tailored waste management solutions for clients, collectors, and stakeholders — ensuring efficiency, transparency, and sustainability.</p>
+    
+    <div class="service-grid">
+      <div class="service-card">
+        <img src="images.png" alt="Client Service">
+        <h3>For Clients</h3>
+        <p>Request pickups, track progress, and receive detailed waste collection reports to help you manage waste responsibly.</p>
+      </div>
+      <div class="service-card">
+        <img src="images.png" alt="Collector Service">
+        <h3>For Collectors</h3>
+        <p>Access optimized routes, manage schedules, and submit collection data in real-time for faster processing.</p>
+      </div>
+      <div class="service-card">
+        <img src="images.png" alt="Stakeholder Service">
+        <h3>For Stakeholders</h3>
+        <p>Monitor live waste statistics, identify trends, and coordinate resources effectively for a cleaner community.</p>
+      </div>
+    </div>
+
+    <!-- Additional Features -->
+    <div class="extra-features">
+      <h2>Why Use This Platform?</h2>
+      <ul>
+        <li>Real-time tracking and notifications</li>
+        <li>Detailed environmental impact reports</li>
+        <li>Optimized routing for fuel and time savings</li>
+        <li>Dedicated customer support</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Community Waste Logistics Hub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
