@@ -1,0 +1,1 @@
+This page is a research project by Awuni Isaac and Nyantakye Robert of the University of Energy and Natural Resources(UENR),Sunyani-Ghana to bridge the gap between clients,waste collectors and the stakeholders to improve logistic solid waste management in Fiapre community
