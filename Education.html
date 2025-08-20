@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Education — WasteBridge</title>
+  <link rel="stylesheet" href="education.css">
+  <!-- Icons (optional but used below) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a class="brand" href="index.html">Fiapre waste hub</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="landing.html">Home</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a class="active" href="education.html">Education</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">about</a></li>
+       <a href="map.html">Find us here</a>
+    </ul>
+  </nav>
+
+  <!-- Page Content -->
+  <section class="education-page">
+    <h2 class="page-title">Education</h2>
+    <p class="intro-text">Learn more about waste management, sustainability, and how communities can contribute to a cleaner environment.</p>
+
+    <!-- Video Resources -->
+    <div class="resources-grid">
+      <div class="resource-card">
+        <h3>Waste Management Basics</h3>
+        <video controls>
+          <source src="Why_Waste_Segregation_is_Important___Waste_Management___The_Planet_Voice(1080p).mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="resource-card">
+        <h3>Recycling Best Practices</h3>
+        <video controls>
+          <source src="Why_Waste_Segregation_is_Important___Waste_Management___The_Planet_Voice(1080p).mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="resource-card">
+        <h3>Community Involvement</h3>
+        <video controls>
+          <source src="Screen Recording 2025-08-09 162119.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="resource-card">
+        <h3>Eco-friendly Lifestyle</h3>
+        <video controls>
+          <source src="Screen Recording 2025-08-09 162119.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+    <!-- Training & Workshop Cards -->
+    <div class="training-grid">
+      <div class="training-card training-green">
+        <i class="fa-solid fa-book-open fa-2x"></i>
+        <h3>Online Courses</h3>
+        <p>Enroll in our interactive courses about waste segregation, recycling, and sustainability.</p>
+      </div>
+      <div class="training-card training-blue">
+        <i class="fa-solid fa-chalkboard-user fa-2x"></i>
+        <h3>Workshops</h3>
+        <p>Join hands-on workshops with experts to learn practical waste management techniques.</p>
+      </div>
+      <div class="training-card training-yellow">
+        <i class="fa-solid fa-users fa-2x"></i>
+        <h3>Community Training</h3>
+        <p>Local community programs designed to teach sustainable practices.</p>
+      </div>
+      <div class="training-card training-red">
+        <i class="fa-solid fa-calendar-days fa-2x"></i>
+        <h3>Events & Seminars</h3>
+        <p>Participate in awareness events, webinars, and seminars led by industry professionals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Research project | Department Of Civil And Env.Engineering | UENR. All rights reserved.</p>
+  </footer>
+
+  <!-- Mobile nav toggle -->
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const links = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      const open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  </script>
+</body>
+</html>
