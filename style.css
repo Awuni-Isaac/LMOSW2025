@@ -1,0 +1,988 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Logistic Management of Solid Waste</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="hero" role="banner">
+      <div class="hero-left">
+        <div class="eyebrow">Waste Logistics & Operations</div>
+        <h1>LOGISTIC MANAGEMENT OF SOLID WASTE</h1>
+        <p class="lead">We coordinate efficient collection routes, safe transfer and proper disposal — all while minimising cost and environmental impact.<br>Tailored plans, real-time tracking, and responsible treatment solutions.</p>
+        <div class="cta-row">
+          <a href="#services" class="btn btn-primary">Get a Free Consultation</a>
+          <a href="#contact" class="btn btn-ghost">Contact Us</a>
+        </div>
+      </div>
+      <div class="hero-right" style="background-image:url('https://images.unsplash.com/photo-1529257414772-196baf6cf8d9?auto=format&fit=crop&w=1400&q=80');" aria-hidden="true"></div>
+    </header>
+
+    <section id="services" class="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services — Brief Introduction</h2>
+      <p>Our logistic management service for solid waste is built to help municipalities, campuses and private clients convert complex waste streams into a streamlined, compliant operation. We design optimized collection routes using route-planning methods that cut fuel consumption and reduce operational hours, while providing scalable transfer and consolidation points to improve throughput. On the handling side, our teams implement segregation-at-source programs, containerisation strategies and safe loading procedures to lower contamination and improve recycling rates. For transport and processing, we coordinate licensed carriers and treatment facilities, prioritizing materials recovery, secure landfilling where necessary, and modern thermal or biologic treatment options when appropriate. Reporting and compliance are automated through simple dashboards and documentation so clients can track volumes, disposal types, costs and carbon-equivalent emissions. Finally, we support stakeholder engagement and behaviour-change campaigns to raise participation and long-term effectiveness. The program is modular — suitable as a turnkey solution or as targeted support for parts of your existing operation.</p>
+    </section>
+
+    <footer id="contact">
+      <p>Want changes? Update the title, image, or copy and I’ll tailor the page to your needs.</p>
+    </footer>
+  </div>
+  .footer {
+  background-color: #2c3e50; /* dark blue background */
+  color: white;              /* white text */
+  text-align: center;        /* center the text */
+  padding: 15px 0;           /* space above/below text */
+  margin-top: 40px;          /* gap from content above */
+  font-size: 14px;
+}
+
+</body>
+</html>
+
+/* Portfolio Section */
+.portfolio {
+  text-align: center;
+  padding: 50px 15px;
+  background: #f8f9fa;
+}
+
+.portfolio h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Slider Container */
+.slider {
+  position: relative;
+  max-width: 700px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Slide Images */
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Navigation Arrows */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.prev:hover, .next:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+/* Dots */
+.dots {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .portfolio h2 {
+    font-size: 1.6em;
+  }
+
+  .prev, .next {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio h2 {
+    font-size: 1.4em;
+  }
+
+  .prev, .next {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  .dot {
+    height: 10px;
+    width: 10px;
+  }
+}
+
+
+/* Contact Page Styling */
+.contact-section {
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+}
+
+.contact-container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.contact-info {
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact-info h2 {
+  margin-bottom: 15px;
+  color: #007B5E;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+.btn-primary {
+  padding: 12px;
+  background-color: #007B5E;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #005f46;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Dashboard Styles */
+.dashboard {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.dashboard h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.dashboard p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* Widgets layout */
+.dashboard-widgets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.card .stat {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.card small {
+  color: #777;
+}
+
+/* Dashboard preview image */
+.dashboard-preview img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Action buttons */
+.dashboard-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn-primary, .btn-secondary {
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn-primary {
+  background: #27ae60;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #219150;
+}
+
+.btn-secondary {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background: #d5d5d5;
+}
+
+
+/* ==== SERVICES PAGE STYLING ==== */
+.services {
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.2em;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.service {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.service h3 {
+  font-size: 1.4em;
+  color: #27ae60;
+  margin-bottom: 12px;
+}
+
+.service p {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+}
+
+.service:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: Add icons to services */
+.service::before {
+  content: "♻️";
+  display: block;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+  background: #006400;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar .nav-links li {
+  margin-left: 1.5rem;
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover,
+.navbar .nav-links a.active {
+  color: #ffd700;
+}
+
+
+
+/* Hero Section */
+.hero {
+  background: url('images/education-bg.jpg') no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 100, 0, 0.6);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background: #ffd700;
+  color: #006400;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #ffcc00;
+}
+
+/* Education Section */
+.education-section {
+  padding: 3rem 2rem;
+  background: #fff;
+  text-align: center;
+}
+
+.education-section h2 {
+  margin-bottom: 2rem;
+  color: #006400;
+}
+
+.card-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #f4f4f4;
+  border-radius: 10px;
+  padding: 1.5rem;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  color: #006400;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.btn-secondary {
+  display: inline-block;
+  background: #006400;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-secondary:hover {
+  background: #004d00;
+}
+
+/* Video Section */
+.video-section {
+  background: #f4f4f4;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.video-section video {
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+.footer {
+  background: #006400;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Animations */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.delay1 {
+  transition-delay: 0.3s;
+}
+
+.delay2 {
+  transition-delay: 0.6s;
+}
+
+nnnnnnnnnnnnnnnnnnnnnnnnnnaaaav
+.main-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: center; /* centers links horizontally */
+  gap: 20px; /* space between items */
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #114b5f;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: color 0.3s;
+}
+
+.main-nav a:hover {
+  color: #2b7a78;
+}
+
+
+
+.video-section video {
+  width: 60%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+/* ========================
+   Root Variables
+   ======================== */
+:root {
+  --primary-color: #28a745; /* Green for eco theme */
+  --secondary-color: #155724;
+  --accent-color: #ffc107; /* Yellow for highlights */
+  --text-color: #333333;
+  --background-color: #ffffff; /* White background */
+  --light-gray: #f5f5f5;
+  --transition-speed: 0.3s;
+}
+
+/* ========================
+   Global Styles
+   ======================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color var(--transition-speed);
+}
+a:hover {
+  color: var(--accent-color);
+}
+
+/* ========================
+   Header & Navigation
+   ======================== */
+header {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  color: #fff;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: var(--accent-color);
+}
+
+/* ========================
+   Hero Section
+   ======================== */
+.hero {
+  background-color: var(--light-gray);
+  padding: 4rem 1rem;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  max-width: 600px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+.hero .btn {
+  margin-top: 2rem;
+  padding: 0.75rem 2rem;
+  background: var(--primary-color);
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background var(--transition-speed);
+}
+.hero .btn:hover {
+  background: var(--secondary-color);
+}
+
+/* ========================
+   Sections
+   ======================== */
+section {
+  padding: 4rem 1rem;
+  background-color: var(--background-color);
+}
+section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.section-content {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* ========================
+   Cards / Features
+   ======================== */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.card {
+  background: var(--light-gray);
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform var(--transition-speed);
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card h3 {
+  margin-bottom: 1rem;
+}
+
+/* ========================
+   Footer
+   ======================== */
+footer {
+  background: var(--secondary-color);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+/* ========================
+   Forms
+   ======================== */
+form {
+  display: grid;
+  gap: 1rem;
+}
+form input, form textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form button {
+  background: var(--primary-color);
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background var(--transition-speed);
+}
+form button:hover {
+  background: var(--secondary-color);
+}
+
+/* ========================
+   Responsive
+   ======================== */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #62b946, #4a9e2d);
+  color: white;
+}
+
+.navbar nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.email-form {
+  display: flex;
+}
+
+.email-form input {
+  padding: 5px;
+  border: none;
+  border-radius: 3px 0 0 3px;
+}
+
+.email-form button {
+  padding: 6px 10px;
+  border: none;
+  background: #114b5f;
+  color: white;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background: #dff5d8;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-text .btn {
+  padding: 10px 20px;
+  background: #4a9e2d;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-image img {
+  max-width: 400px;
+  border-radius: 50%;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #4a9e2d;
+  color: white;
+}
+
+
+/* General Reset */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+body {
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #114b5f;
+  padding: 1rem 2rem;
+}
+.navbar .logo {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav-links .active {
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+
+/* Hero Section */
+.hero {
+  background: url('your-hero-image.jpg') center/cover no-repeat;
+  color: #fff;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+.hero .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Info Cards */
+.education-section {
+  padding: 2rem;
+  text-align: center;
+}
+.info-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.info-card {
+  flex: 1;
+  min-width: 200px;
+  max-width: 250px;
+  padding: 2rem;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+.info-card h3 {
+  margin-bottom: 1rem;
+}
+.info-card.blue { background: #6a5acd; }
+.info-card.green { background: #228b22; }
+.info-card.teal { background: #20b2aa; }
+.info-card.red { background: #dc143c; }
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: #114b5f;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+
+
+
+
+
+
