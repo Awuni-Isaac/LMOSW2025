@@ -34,6 +34,77 @@
     <h2 class="page-title">Education</h2>
     <p class="intro-text">Learn more about waste management, sustainability, and how communities can contribute to a cleaner environment.</p>
 
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slideshow</title>
+  <style>
+    /* Scoped only to #mySlideshowWrapper */
+    #mySlideshowWrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      /* background removed for modern clean look */
+    }
+    #mySlideshowWrapper .slideshow {
+      width: 60%;
+      max-width: 500px;
+      height: 300px;
+      overflow: hidden;
+      border-radius: 12px; /* smooth modern rounded corners */
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15); /* subtle professional shadow */
+      position: relative;
+    }
+    #mySlideshowWrapper .slideshow img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: none;
+      border-radius: 12px;
+    }
+    #mySlideshowWrapper .slideshow img.active {
+      display: block;
+      animation: fade 1s ease-in-out;
+    }
+    @keyframes fade {
+      from { opacity: 0.4; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Slideshow wrapper -->
+  <div id="mySlideshowWrapper">
+    <div class="slideshow">
+      <img src="uenrlogo.jpg" class="active">
+      <img src="images.png">
+      <img src="download4.jpeg">
+      <img src="https://picsum.photos/id/1020/800/450">
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      let currentIndex = 0;
+      const images = document.querySelectorAll("#mySlideshowWrapper .slideshow img");
+      const total = images.length;
+
+      function changeImage() {
+        images[currentIndex].classList.remove("active");
+        currentIndex = (currentIndex + 1) % total;
+        images[currentIndex].classList.add("active");
+      }
+
+      setInterval(changeImage, 3000); // every 3s
+    })();
+  </script>
+</body>
+</html>
+
+
     <!-- Video Resources -->
     <div class="resources-grid">
       <div class="resource-card">
